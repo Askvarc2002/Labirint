@@ -1,0 +1,50 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	background-color:red;
+	
+}
+canvas{
+ transform:scale(2.3);	
+ 	
+}
+#main{
+	position:absolute;
+	left: 1100px;
+	top: 600px;
+}
+#zunanji{
+	font-family:font;
+	color: black;
+	text-align: center;
+	
+}
+#apple{
+	width:100px
+	
+}
+
+#desni{
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}
+#center{
+	position:center;
+	margin:12px 10px;
+	color:black
+}
+#levi{
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	
+}
+#endbotton{
+ position: absolute;
+  left: 920px;
+  top: 810px;
+  z-index: -1;
+}

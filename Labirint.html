@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Labirint</title>
+<link rel="stylesheet" type="text/css" href="labirint.css">
+</head>
+
+<body>
+<div id="zunanji">
+		<div id="center">
+			<div id="main">
+				<canvas id="labirint" width="800px" height="800px">
+				</canvas>
+			</div>
+		
+		</div>
+		<div id="levi">
+		<img src="lab.jpg" height="900px" width="450">
+	</div>
+	<div id="endbotton">
+	<img src="apple.jpg" id="apple"><br><br>
+	
+	</div>
+		<div id="desni">
+		<img src="lab.jpg" height="900px" width="450" >
+	</div>
+	
+</div>
+		
+<script>
+var canvas=document.getElementById('labirint');
+var ctx=canvas.getContext('2d');
+ctx.lineWidth=2;
+ctx.strokeStyle="white";
+ctx.lineCap="square";
+function labirint(){
+ctx.beginPath();
+ctx.moveTo(2,2);
+ctx.lineTo(146,2);
+ctx.moveTo(162,2);
+ctx.lineTo(322,2);
+ctx.moveTo(18,18);
+ctx.lineTo(66,18);
+ctx.moveTo(98,18);
+ctx.lineTo(114,18);
+ctx.moveTo(130,18);
+ctx.lineTo(162,18);
+ctx.moveTo(178,18);
+ctx.lineTo(210,18);
+ctx.moveTo(242,18);
+ctx.lineTo(274,18);
+ctx.moveTo(290,18);
+ctx.lineTo(306,18);
+ctx.moveTo(34,34);
+ctx.lineTo(50,34);
+ctx.moveTo(66,34);
+ctx.lineTo(130,34);
+ctx.moveTo(162,34);
+ctx.lineTo(178,34);
+ctx.moveTo(210,34);
+ctx.lineTo(258,34);
+ctx.moveTo(274,34);
+ctx.lineTo(290,34);
+ctx.moveTo(18,50);
+ctx.lineTo(34,50);
+ctx.moveTo(50,50);
+ctx.lineTo(66,50);
+ctx.moveTo(98,50);
+ctx.lineTo(114,50);
+ctx.moveTo(146,50);
+ctx.lineTo(162,50);
+ctx.moveTo(178,50);
+ctx.lineTo(210,50);
+ctx.moveTo(226,50);
+ctx.lineTo(242,50);
+ctx.moveTo(258,50);
+ctx.lineTo(274,50);
+ctx.moveTo(2,66);
+ctx.lineTo(18,66);
+ctx.moveTo(114,66);
+ctx.lineTo(130,66);
+ctx.moveTo(162,66);
+ctx.lineTo(178,66);
+ctx.moveTo(210,66);
+ctx.lineTo(242,66);
+ctx.moveTo(2,82);
+ctx.lineTo(82,82);
+ctx.moveTo(178,82);
+ctx.lineTo(226,82);
+ctx.moveTo(258,82);
+ctx.lineTo(306,82);
+ctx.moveTo(18,98);
+ctx.lineTo(66,98);
+ctx.moveTo(226,98);
+ctx.lineTo(242,98);
+ctx.moveTo(274,98);
+ctx.lineTo(322,98);
+ctx.moveTo(2,114);
+ctx.lineTo(34,114);
+ctx.moveTo(66,114);
+ctx.lineTo(146,114);
+ctx.moveTo(162,114);
+ctx.lineTo(194,114);
+ctx.moveTo(210,114);
+ctx.lineTo(306,114);
+ctx.moveTo(82,130);
+ctx.lineTo(98,130);
+ctx.moveTo(242,130);
+ctx.lineTo(306,130);
+ctx.moveTo(2,146);
+ctx.lineTo(18,146);
+ctx.moveTo(34,146);
+ctx.lineTo(82,146);
+ctx.moveTo(114,146);
+ctx.lineTo(162,146);
+ctx.moveTo(178,146);
+ctx.lineTo(258,146);
+ctx.moveTo(306,146);
+ctx.lineTo(322,146);
+ctx.moveTo(18,162);
+ctx.lineTo(50,162);
+ctx.moveTo(98,162);
+ctx.lineTo(146,162);
+ctx.moveTo(162,162);
+ctx.lineTo(178,162);
+ctx.moveTo(274,162);
+ctx.lineTo(306,162);
+ctx.moveTo(2,178);
+ctx.lineTo(34,178);
+ctx.moveTo(82,178);
+ctx.lineTo(114,178);
+ctx.moveTo(130,178);
+ctx.lineTo(162,178);
+ctx.moveTo(178,178);
+ctx.lineTo(194,178);
+ctx.moveTo(210,178);
+ctx.lineTo(242,178);
+ctx.moveTo(306,178);
+ctx.lineTo(322,178);
+ctx.moveTo(34,194);
+ctx.lineTo(50,194);
+ctx.moveTo(114,194);
+ctx.lineTo(130,194);
+ctx.moveTo(162,194);
+ctx.lineTo(226,194);
+ctx.moveTo(242,194);
+ctx.lineTo(274,194);
+ctx.moveTo(290,194);
+ctx.lineTo(306,194);
+ctx.moveTo(98,210);
+ctx.lineTo(130,210);
+ctx.moveTo(146,210);
+ctx.lineTo(162,210);
+ctx.moveTo(178,210);
+ctx.lineTo(194,210);
+ctx.moveTo(226,210);
+ctx.lineTo(258,210);
+ctx.moveTo(18,226);
+ctx.lineTo(66,226);
+ctx.moveTo(130,226);
+ctx.lineTo(146,226);
+ctx.moveTo(162,226);
+ctx.lineTo(242,226);
+ctx.moveTo(274,226);
+ctx.lineTo(290,226);
+ctx.moveTo(18,242);
+ctx.lineTo(50,242);
+ctx.moveTo(66,242);
+ctx.lineTo(98,242);
+ctx.moveTo(114,242);
+ctx.lineTo(130,242);
+ctx.moveTo(146,242);
+ctx.lineTo(178,242);
+ctx.moveTo(258,242);
+ctx.lineTo(274,242);
+ctx.moveTo(290,242);
+ctx.lineTo(322,242);
+ctx.moveTo(2,258);
+ctx.lineTo(18,258);
+ctx.moveTo(50,258);
+ctx.lineTo(66,258);
+ctx.moveTo(98,258);
+ctx.lineTo(146,258);
+ctx.moveTo(178,258);
+ctx.lineTo(194,258);
+ctx.moveTo(210,258);
+ctx.lineTo(258,258);
+ctx.moveTo(290,258);
+ctx.lineTo(306,258);
+ctx.moveTo(18,274);
+ctx.lineTo(178,274);
+ctx.moveTo(226,274);
+ctx.lineTo(242,274);
+ctx.moveTo(258,274);
+ctx.lineTo(290,274);
+ctx.moveTo(18,290);
+ctx.lineTo(34,290);
+ctx.moveTo(50,290);
+ctx.lineTo(130,290);
+ctx.moveTo(146,290);
+ctx.lineTo(194,290);
+ctx.moveTo(274,290);
+ctx.lineTo(322,290);
+ctx.moveTo(2,306);
+ctx.lineTo(18,306);
+ctx.moveTo(50,306);
+ctx.lineTo(98,306);
+ctx.moveTo(130,306);
+ctx.lineTo(146,306);
+ctx.moveTo(242,306);
+ctx.lineTo(274,306);
+ctx.moveTo(2,322);
+ctx.lineTo(162,322);
+ctx.moveTo(178,322);
+ctx.lineTo(322,322);
+ctx.moveTo(2,2);
+ctx.lineTo(2,322);
+ctx.moveTo(18,18);
+ctx.lineTo(18,50);
+ctx.moveTo(18,130);
+ctx.lineTo(18,146);
+ctx.moveTo(18,194);
+ctx.lineTo(18,226);
+ctx.moveTo(18,274);
+ctx.lineTo(18,290);
+ctx.moveTo(34,50);
+ctx.lineTo(34,82);
+ctx.moveTo(34,114);
+ctx.lineTo(34,130);
+ctx.moveTo(34,178);
+ctx.lineTo(34,210);
+ctx.moveTo(34,242);
+ctx.lineTo(34,274);
+ctx.moveTo(34,290);
+ctx.lineTo(34,306);
+ctx.moveTo(50,18);
+ctx.lineTo(50,34);
+ctx.moveTo(50,50);
+ctx.lineTo(50,66);
+ctx.moveTo(50,98);
+ctx.lineTo(50,178);
+ctx.moveTo(50,194);
+ctx.lineTo(50,210);
+ctx.moveTo(50,226);
+ctx.lineTo(50,242);
+ctx.moveTo(50,306);
+ctx.lineTo(50,322);
+ctx.moveTo(66,34);
+ctx.lineTo(66,66);
+ctx.moveTo(66,114);
+ctx.lineTo(66,130);
+ctx.moveTo(66,162);
+ctx.lineTo(66,226);
+ctx.moveTo(66,242);
+ctx.lineTo(66,258);
+ctx.moveTo(82,18);
+ctx.lineTo(82,34);
+ctx.moveTo(82,50);
+ctx.lineTo(82,114);
+ctx.moveTo(82,130);
+ctx.lineTo(82,242);
+ctx.moveTo(82,258);
+ctx.lineTo(82,274);
+ctx.moveTo(98,2);
+ctx.lineTo(98,18);
+ctx.moveTo(98,34);
+ctx.lineTo(98,98);
+ctx.moveTo(98,130);
+ctx.lineTo(98,162);
+ctx.moveTo(98,194);
+ctx.lineTo(98,210);
+ctx.moveTo(98,226);
+ctx.lineTo(98,258);
+ctx.moveTo(114,66);
+ctx.lineTo(114,146);
+ctx.moveTo(114,210);
+ctx.lineTo(114,242);
+ctx.moveTo(114,290);
+ctx.lineTo(114,322);
+ctx.moveTo(130,18);
+ctx.lineTo(130,34);
+ctx.moveTo(130,50);
+ctx.lineTo(130,98);
+ctx.moveTo(130,130);
+ctx.lineTo(130,146);
+ctx.moveTo(130,178);
+ctx.lineTo(130,194);
+ctx.moveTo(130,210);
+ctx.lineTo(130,226);
+ctx.moveTo(130,274);
+ctx.lineTo(130,290);
+ctx.moveTo(146,34);
+ctx.lineTo(146,130);
+ctx.moveTo(146,162);
+ctx.lineTo(146,178);
+ctx.moveTo(146,194);
+ctx.lineTo(146,210);
+ctx.moveTo(146,226);
+ctx.lineTo(146,258);
+ctx.moveTo(146,290);
+ctx.lineTo(146,306);
+ctx.moveTo(162,18);
+ctx.lineTo(162,34);
+ctx.moveTo(162,66);
+ctx.lineTo(162,82);
+ctx.moveTo(162,98);
+ctx.lineTo(162,162);
+ctx.moveTo(162,178);
+ctx.lineTo(162,194);
+ctx.moveTo(162,210);
+ctx.lineTo(162,226);
+ctx.moveTo(162,258);
+ctx.lineTo(162,274);
+ctx.moveTo(162,306);
+ctx.lineTo(162,322);
+ctx.moveTo(178,2);
+ctx.lineTo(178,34);
+ctx.moveTo(178,50);
+ctx.lineTo(178,66);
+ctx.moveTo(178,82);
+ctx.lineTo(178,98);
+ctx.moveTo(178,130);
+ctx.lineTo(178,146);
+ctx.moveTo(178,162);
+ctx.lineTo(178,178);
+ctx.moveTo(178,194);
+ctx.lineTo(178,210);
+ctx.moveTo(178,242);
+ctx.lineTo(178,258);
+ctx.moveTo(178,290);
+ctx.lineTo(178,322);
+ctx.moveTo(194,34);
+ctx.lineTo(194,66);
+ctx.moveTo(194,98);
+ctx.lineTo(194,130);
+ctx.moveTo(194,146);
+ctx.lineTo(194,178);
+ctx.moveTo(194,226);
+ctx.lineTo(194,306);
+ctx.moveTo(210,18);
+ctx.lineTo(210,50);
+ctx.moveTo(210,66);
+ctx.lineTo(210,114);
+ctx.moveTo(210,130);
+ctx.lineTo(210,146);
+ctx.moveTo(210,162);
+ctx.lineTo(210,194);
+ctx.moveTo(210,210);
+ctx.lineTo(210,242);
+ctx.moveTo(210,258);
+ctx.lineTo(210,306);
+ctx.moveTo(226,2);
+ctx.lineTo(226,18);
+ctx.moveTo(226,50);
+ctx.lineTo(226,66);
+ctx.moveTo(226,114);
+ctx.lineTo(226,130);
+ctx.moveTo(226,146);
+ctx.lineTo(226,162);
+ctx.moveTo(226,242);
+ctx.lineTo(226,258);
+ctx.moveTo(226,274);
+ctx.lineTo(226,322);
+ctx.moveTo(242,66);
+ctx.lineTo(242,98);
+ctx.moveTo(242,162);
+ctx.lineTo(242,194);
+ctx.moveTo(242,242);
+ctx.lineTo(242,258);
+ctx.moveTo(242,290);
+ctx.lineTo(242,306);
+ctx.moveTo(258,66);
+ctx.lineTo(258,114);
+ctx.moveTo(258,130);
+ctx.lineTo(258,178);
+ctx.moveTo(258,210);
+ctx.lineTo(258,242);
+ctx.moveTo(258,258);
+ctx.lineTo(258,306);
+ctx.moveTo(274,18);
+ctx.lineTo(274,66);
+ctx.moveTo(274,146);
+ctx.lineTo(274,162);
+ctx.moveTo(274,178);
+ctx.lineTo(274,274);
+ctx.moveTo(290,2);
+ctx.lineTo(290,18);
+ctx.moveTo(290,34);
+ctx.lineTo(290,82);
+ctx.moveTo(290,130);
+ctx.lineTo(290,146);
+ctx.moveTo(290,162);
+ctx.lineTo(290,194);
+ctx.moveTo(290,210);
+ctx.lineTo(290,226);
+ctx.moveTo(290,290);
+ctx.lineTo(290,306);
+ctx.moveTo(306,18);
+ctx.lineTo(306,50);
+ctx.moveTo(306,66);
+ctx.lineTo(306,82);
+ctx.moveTo(306,114);
+ctx.lineTo(306,130);
+ctx.moveTo(306,146);
+ctx.lineTo(306,162);
+ctx.moveTo(306,194);
+ctx.lineTo(306,226);
+ctx.moveTo(306,258);
+ctx.lineTo(306,290);
+ctx.moveTo(306,306);
+ctx.lineTo(306,322);
+ctx.moveTo(322,2);
+ctx.lineTo(322,322);
+ctx.stroke();
+ctx.closePath();
+}
+labirint();
+
+</script>	
+			
+<script>
+    var y = 2;
+    var x = 154;
+    var nar = 1;
+    var dx = 1;
+    var dy = 1;
+	var worms = new Image();
+	worms.src="worms.png";
+
+    function drawIt() {
+        ctx.fillStyle = "black";
+				if(nar==1){
+					labirint();
+					dx=2;
+					dy=2;
+					ctx.fillRect(x,y,2,2);
+					
+				}
+				
+					else if(nar==2){
+					var dx=1;
+					var dy=1;
+					
+					x1=x;
+					y1=y;
+				
+					x1=x;
+					y1=y;
+					ctx.clearRect(x-6,y-7,16,16);
+					ctx.drawImage(worms, x-5, y-5, 13, 13);   
+					labirint();
+				    }
+		
+        
+	if(x==154 && y>=2 && y<=10)
+    y+=dy;
+    if(y==10 && x>=122 && x<=154)
+    x-=dx;
+    if(x==122 && y>=10 && y<=26)
+    y+=dy;
+	if(y==26 && x>=90 && x<=122)
+	x-=dx;
+	if(x==90 && y>=10 && y<=26)
+	y-=dy;
+	if(y==10 && x>=74 && x<=90)
+	x-=dx;
+	if(x==74 && y>=10 && y<=26)
+	y+=dy;
+	if(y==26 && x>=58 && x<=74)
+	x-=dx;
+    if(x==58 && y>=26 && y<=42)
+	y+=dy;
+	if(y==42 && x>=42 && x<=58)
+	x-=dx;
+	if(x==42 && y>=42 && y<=72)
+	y+=dy;
+	if(y==72 && x>=42 && x<=74)
+	x+=dx;
+	if(x==74 && y>=42 && y<=72)
+	y-=dy;
+	if(y==42 && x>=74 && x<=90)
+	x+=dx;
+	if(x==90 && y>=42 && y<=106)
+	y+=dy;
+	if(y==106&& x>=90 && x<=106)
+	x+=dx;
+	if(x==106&& y>=58&& y<=106)
+	y-=dy;
+	if(y==58 && x>=106 && x<=122)
+	x+=dx;
+	if(x==122&& y>=42 && y<=58)
+	y-=dy;
+	if(y==42 && x>=122 && x<=138)
+	x+=dx;
+	if(x==138 && y>=26 && y<=42)
+	y-=dy;
+	if(y==26 && x>=138 && x<=154)
+	x+=dx;
+	if(x==154 && y>=26 && y<=42)
+	y+=dy;
+	if(y==42 && x>=154 && x<=170)
+	x+=dx;
+	if(x==170 && y>=42 && y<=58)
+	y+=dy;
+	if(y==58 && x>=154 && x<=170)
+	x-=dx;
+	if(x==154 && y>=58 && y<=90)
+	y+=dy;
+	if(y==90 && x>=154 && x<=170)
+	x+=dx;
+	if(x==170 && y>=74 && y<=90)
+	y-=dy;
+	if(y==74 && x>=170 && x<=202)
+	x+=dx;
+	if(x==202 && y>=58 && y<=74)
+	y-=dy;
+	if(y==58 && x>=202 && x<=218)
+	x+=dx;
+	if(x==218 && y>=42 && y<=58)
+	y-=dy;
+	if(y==42 && x>=218 && x<=266)
+	x+=dx;
+    if(x==266 && y>=26 && y<=42)
+	y-=dy; 
+    if(y==26 && x>=234 && x<=266)
+	x-=dx;	
+	if(x==234 && y>=10 && y<=26)
+	y-=dy;
+	if(y==10 && x>=234 && x<=282)
+	x+=dx;	
+	if(x==282 && y>=10 && y<=26)
+	y+=dy;
+	if(y==26 && x>=282 && x<=298)
+	x+=dx;
+	if(x==298 && y>=26 && y<=58)
+	y+=dy;
+	if(y==58 && x>=298 && x<=314)
+	x+=dx;
+	if(x==314 && y>=58 && y<=90)
+	y+=dy;
+	if(y==90 && x>=266 && x<=314)
+	x-=dx;	
+	if(x==266 && y>=90 && y<=106)
+	y+=dy;
+	if(y==106 && x>=266 && x<=314)
+	x+=dx;
+	if(x==314 && y>=106 && y<=138)
+	y+=dy;
+	if(y==138 && x>=298 && x<=314)
+	x-=dx;	
+	if(x==298 && y>=138 && y<=154)
+	y+=dy;
+	if(y==154 && x>=282 && x<=298)
+	x-=dx;
+	if(x==282 && y>=138 && y<=154)
+	y-=dy;
+	if(y==138 && x>=266 && x<=282)
+	x-=dx;
+	if(x==266 && y>=138 && y<=186)
+	y+=dy;
+	if(y==186 && x>=250 && x<=266)
+	x-=dx;
+	if(x==250 && y>=154 && y<=186)
+	y-=dy;
+	if(y==154 && x>=234 && x<=250)
+	x-=dx;
+	if(x==234 && y>=154 && y<=170)
+	y+=dy;
+	if(y==170 && x>=218 && x<=234)
+	x-=dx;
+	if(x==218 && y>=154 && y<=170)
+	y-=dy;
+	if(y==154 && x>=202 && x<=218)
+	x-=dx;
+	if(x==202 && y>=154 && y<=186)
+	y+=dy;
+	if(y==186 && x>=170 && x<=202)
+	x-=dx;
+	if(x==170 && y>=170 && y<=186)
+	y-=dy;
+	if(y==170 && x>=154 && x<=170)
+	x-=dx;
+	if(x==154 && y>=154 && y<=170)
+	y-=dy;
+	if(y==154 && x>=106 && x<=154)
+	x-=dx;
+	if(x==106 && y>=122 && y<=154)
+	y-=dy;
+	if(y==122 && x>=74 && x<=106)
+	x-=dx;
+	if(x==74 && y>=122 && y<=138)
+	y+=dy;
+	if(y==138 && x>=58 && x<=74)
+	x-=dx;
+	if(x==58 && y>=106 && y<=138)
+	y-=dy;
+	if(y==106 && x>=58 && x<=74)
+	x+=dx;
+	if(x==74 && y>=90 && y<=106)
+	y-=dy;
+	if(y==90 && x>=10 && x<=74)
+	x-=dx;
+	if(x==10 && y>=90 && y<=106)
+	y+=dy;
+	if(y==106 && x>=10 && x<=42)
+	x+=dx;
+	if(x==42 && y>=106 && y<=138)
+	y+=dy;
+	if(y==138 && x>=26 && x<=42)
+	x-=dx;
+	if(x==26 && y>=138 && y<=154)
+	y+=dy;
+	if(y==154 && x>=10 && x<=26)
+	x-=dx;
+	if(x==10 && y>=154 && y<=170)
+	y+=dy;
+	if(y==170 && x>=10 && x<=42)
+	x+=dx;
+	if(x==42 && y>=170 && y<=186)
+	y+=dy;
+	if(y==186 && x>=42 && x<=58)
+	x+=dx;
+	if(x==58 && y>=154 && y<=186)
+	y-=dy;
+	if(y==154 && x>=58 && x<=74)
+	x+=dx;
+	if(x==74 && y>=154 && y<=234)
+	y+=dy;
+	if(y==234 && x>=58 && x<=74)
+	x-=dx;
+	if(x==58 && y>=234 && y<=250)
+	y+=dy;
+	if(y==250 && x>=42 && x<=58)
+	x-=dx;
+	if(x==42 && y>=250 && y<=266)
+	y+=dy;
+	if(y==266 && x>=42 && x<=74)
+	x+=dx;
+	if(x==74 && y>=250 && y<=266)
+	y-=dy;
+	if(y==250 && x>=74 && x<=90)
+	x+=dx;
+	if(x==90 && y>=250 && y<=266)
+	y+=dy;
+	if(y==266 && x>=90 && x<=154)
+	x+=dx;
+	if(x==154 && y>=250 && y<=266)
+	y-=dy;
+	if(y==250 && x>=154 && x<=170)
+	x+=dx;
+	if(x==170 && y>=250 && y<=266)
+	y+=dy;
+	if(y==266 && x>=170 && x<=186)
+	x+=dx;
+	if(x==186 && y>=266 && y<=282)
+	y+=dy;
+	if(y==282 && x>=138 && x<=186)
+	x-=dx;
+	if(x==138 && y>=282 && y<=298)
+	y+=dy;
+	if(y==298 && x>=122 && x<=138)
+	x-=dx;
+	if(x==122 && y>=298 && y<=314)
+	y+=dy;
+	if(y==314 && x>=122 && x<=154)
+	x+=dx;
+	if(x==154 && y>=298 && y<=314)
+	y-=dy;
+	if(y==298 && x>=154 && x<=170)
+	x+=dx;
+	if(x==170 && y>=298 && y<=314)
+	y+=dy;
+	
+	
+		if(x==170&&y==314){
+			x=154;
+			y=2;
+		if(nar==1){
+		nar++;
+		}
+		else{
+		ctx.clearRect(x,y,4,4);    
+		nar++;
+			setTimeout(function(){
+			ctx.clearRect(100,200,1000,1000);    
+			y = 2;
+			x = 154;
+			nar = 1;
+			}, 3000);
+		}
+	}
+}	
+		setInterval(drawIt, 7);
+
+
+</script>
+
+
+</body>
+</html>
